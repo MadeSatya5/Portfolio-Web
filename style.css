@@ -367,7 +367,6 @@ span {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  grid-template-columns: (3, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -406,6 +405,16 @@ span {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+.project-container{
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  padding: 20px;
+}
+.project-container:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #b74b4b;
+  cursor: pointer;
 }
 .project-container img {
   margin-bottom: 10px;
